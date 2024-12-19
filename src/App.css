@@ -19,10 +19,11 @@ nav {
   right: 0.5rem;
 }
 
-input[type='radio'] {
-  background-color: #3949ab;
-}
-
 label:not(:last-child) {
   margin-right: 1rem;
+}
+
+.movie_poster-image {
+  height: 400px !important;
+  width: 300px !important;
 }

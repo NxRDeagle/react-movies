@@ -60,6 +60,8 @@ const Movies = () => {
                 />
               );
             })
+          ) : search === '' ? (
+            <h4>Enter the title of the movie you would like to find.</h4>
           ) : (
             <h4>Nothing found</h4>
           )}

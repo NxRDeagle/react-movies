@@ -8,7 +8,7 @@ const Movie = ({ title, year, poster, type }) => {
             src={`https://placehold.jp/24/cccccc/ffffff/300x400.png?text=${title}`}
           />
         ) : (
-          <img className="activator" src={poster} />
+          <img className="activator movie_poster-image" src={poster} style={{ margin: '0 auto' }} />
         )}
       </div>
       <div className="card-content">
