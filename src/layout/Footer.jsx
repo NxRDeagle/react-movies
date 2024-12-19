@@ -1,4 +1,4 @@
-const Header = () => {
+const Footer = () => {
   return (
     <footer className="page-footer indigo darken-1">
       <div className="footer-copyright">
@@ -13,4 +13,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Footer;
