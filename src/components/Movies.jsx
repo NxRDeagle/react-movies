@@ -20,7 +20,7 @@ const Movies = () => {
         const searchQueryParam = search === '' ? '' : `&s=${search}`;
         const filterQueryParam = filter === 'all' ? '' : `&type=${filter}`;
         const response = await axios.get(
-          `http://www.omdbapi.com/?apikey=${API_KEY}${searchQueryParam}${filterQueryParam}`,
+          `https://www.omdbapi.com/?apikey=${API_KEY}${searchQueryParam}${filterQueryParam}`,
         );
         const result = response.data.Search;
         setFilmList(result);
